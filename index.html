@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com HTML</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        h3 {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="cabeçalho">Introdução ao HTML na prática</h1>
+    <hr>
+    <h2>Índice:</h2>
+    <ol>
+        <li><a href="#html">O Que é HTML</a></li>
+        <li><a href="#inspetor">Inspetor de Elementos</a></li>
+        <li><a href="#estrutura">Estrutura Básica HTML</a></li>
+        <li><a href="#tags">Exemplos de Tags</a></li> 
+        <li><a href="#tags-texto">Tags para Texto</a></li>
+        <li><a href="#atributos">Atributos Globais e Específicos</a></li>
+        <li>
+            <a href="#listas">Listas:</a>
+            <ul>
+                <li><a href="#ol">Ordenadas</a></li>
+                <li><a href="#ul">Não ordenadas</a></li>
+            </ul>
+        </li>
+        <li><a href="#links">Links</a></li>
+    </ol>
+    <hr>
+    <h3 id="html">O Que é <abbr title="HyperText Markup Language">HTML</abbr></h3>
+    <p>HTML, abreviação de HyperText Markup Language (Linguagem de Marcação de Hipertexto), é a <u>linguagem de marcação padrão utilizada para criar a estrutura e o conteúdo de páginas web</u>. Ela é composta por uma série de tags que são interpretadas pelos navegadores para exibir o texto, imagens, links, vídeos e outros elementos na web.</p>
+    <blockquote>
+        "A tecnologia é fruto da junção entre os padrões HyTime e SGML.
+        <br>
+        <mark>HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo</mark>. Um documento é visto como um conjunto de eventos concorrentes dependentes de tempo (como áudio, vídeo, etc.), conectados por hiperligações (em inglês: hyperlink e link). O padrão é independente de outros padrões de processamento de texto em geral.
+        <br>
+        <mark>SGML é um padrão de formatação de textos</mark>. Não foi desenvolvido para hipertexto, mas tornou-se conveniente para transformar documentos em hiper-objetos e para descrever as ligações.[...]"
+        <br>
+        <a title="Wikipedia" target="_blank" href="https://pt.wikipedia.org/wiki/HTML">Ler mais</a>
+    </blockquote>
+    <small><a href="#cabeçalho">< Índice</a></small>
+
+    <h3 id="inspetor">Inspetor de Elementos</h3>
+    <p>Inspetor de elementos é uma <u>ferramenta de desenvolvimento presente nos navegadores</u>, que permite visualizar e editar o código HTML, CSS e JavaScript de uma página web em tempo real.</p>
+
+    <h3 id="estrutura">Estrutura Básica <abbr title="HyperText Markup Language">HTML</abbr></h3>
+    <p>A estrutura básica do HTML consiste em três partes principais: o cabeçalho (head), o título (title) e o corpo (body).</p>
+
+    <p>O <b>cabeçalho (head)</b> é onde colocamos informações sobre o documento, como o CSS e o JavaScript que serão utilizados, além de metadados importantes para a página.</p>
+        
+    <p>O <b>título (title)</b> é o nome que aparece na aba do navegador e é usado para identificar a página.</p>
+        
+    <p>O <b>corpo (body)</b> é onde colocamos todo o conteúdo visível da página, como textos, imagens, links, botões e formulários. É nessa parte que os usuários interagem com a página.</p>
+
+    <h4><a title="W3 Schools" target="_blank" href="https://www.w3schools.com/html/html_intro.asp"><i>Ver Exemplo</i></a></h4>
+    <small><a href="#cabeçalho">< Índice</a></small>
+
+    <h3 id="tags">Exemplos de <abbr title="Marcação usada para estruturar e formatar o conteúdo de uma página da web">Tags</abbr></h3>
+    <p>Tags HTML são <mark>códigos utilizados para estruturar e organizar o conteúdo de uma página na internet</mark>. Elas são representadas por "< >" e fornecem instruções para o navegador sobre como exibir os elementos da página, como texto, imagens, links, tabelas, entre outros.</p>
+    <small><a href="#cabeçalho">< Índice</a></small>
+
+    <h3 id="tags-texto"><abbr title="Marcação usada para estruturar e formatar o conteúdo de uma página da web">Tags</abbr> para Texto</h3>
+    <p>Alguns exemplos de tags HTML são:</p>
+    <ul>
+        <li><strong>h1 a h6:</strong> define os títulos do texto, sendo o h1 o mais importante e o h6 o menos importante.</li>
+        <li><strong>p:</strong> define um parágrafo de texto.</li>
+        <li><strong>a:</strong> cria um link para outra página.</li>
+        <li><strong>img:</strong> insere uma imagem na página.</li>
+    </ul>
+
+    <h3 id="atributos">Atributos Globais e Específicos</h3>
+    <p><b>Atributos globais</b> são aqueles que podem ser usados em <u>qualquer tag HTML</u> e têm efeito geral em uma página. Um exemplo é o atributo "id", que identifica um elemento de forma única no documento HTML.</p>
+    <p><b>Atributos específicos</b> são aqueles que são aplicados apenas a <u>tags específicas</u> e têm efeito limitado a essas tags. Por exemplo, o atributo "src" é usado apenas na tag "img" para especificar a origem da imagem a ser exibida.</p>
+    <small><a href="#cabeçalho">< Índice</a></small>
+
+    <h3 id="listas">Listas</h3>
+    <h4 id="ol">Ordenadas</h4>
+    <sup><p>Listas ordenadas em HTML são usadas para mostrar itens em uma sequência específica, geralmente numerados.(1.,2.,3.,... | a., b., c., ...)</p></sup>
+    <h4 id="ul">Não Ordenadas</h4>
+    <sub><p>Por outro lado, listas não ordenadas em HTML são usadas para mostrar itens sem uma ordem específica, normalmente com marcadores.(º ou °, entre outros )</p></sub>
+    <small><a href="#cabeçalho">< Índice</a></small>
+
+    <h3 id="links">Links</h3>
+    <p><u>Tag de link em HTML é usada para criar um link para outro documento ou página da web</u>.</p>
+    <p>Ela é representada pela tag "a" e possui dois atributos principais:</p>
+    <ol>
+        <li><strong>href:</strong> define o endereço do documento ou página para onde o link deve direcionar. </li>
+        <li><strong>target:</strong> especifica onde o documento ou página deve ser aberto quando o link é clicado. Alguns valores comuns são: <i>_blank</i> (abre em uma nova janela ou aba), <i>_self</i> (abre na mesma janela) e <i>_parent</i> (abre na janela pai). </li>
+    </ol>
+    <small><a href="#cabeçalho">< Índice</a></small>
+</body>
+</html>
